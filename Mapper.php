@@ -5,7 +5,7 @@ namespace Ddeboer\Salesforce\MapperBundle;
 use Phpforce\SoapClient\ClientInterface;
 use Phpforce\SoapClient\Result;
 use Ddeboer\Salesforce\MapperBundle\Annotation\AnnotationReader;
-use Ddeboer\Salesforce\MapperBundle\Annotation;
+use Ddeboer\Salesforce\MapperBundle\Annotation as Salesforce;
 use Ddeboer\Salesforce\MapperBundle\Response\MappedRecordIterator;
 use Ddeboer\Salesforce\MapperBundle\Query\Builder;
 use Ddeboer\Salesforce\MapperBundle\Event\BeforeSaveEvent;
