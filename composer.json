@@ -2,13 +2,23 @@
     "name": "ddeboer/salesforce-mapper-bundle",
     "type": "symfony-bundle",
     "description": "A Salesforce API mapper",
-    "keywords": [ "salesforce", "soap", "web service" ],
+    "keywords": [
+        "salesforce",
+        "soap",
+        "web service"
+    ],
     "homepage": "https://github.com/Ddeboer/DdeboerSalesforceMapperBundle/",
     "license": "MIT",
     "authors": [
         {
             "name": "David de Boer",
             "email": "david@ddeboer.nl"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bge-webservices/salesforce-bundle-1"
         }
     ],
     "require": {
@@ -20,7 +30,9 @@
         "sensio/framework-extra-bundle": "For the param converter"
     },
     "autoload": {
-        "psr-0": { "Ddeboer\\Salesforce\\MapperBundle": "" }
+        "psr-0": {
+            "Ddeboer\\Salesforce\\MapperBundle": ""
+        }
     },
     "target-dir": "Ddeboer/Salesforce/MapperBundle",
     "minimum-stability": "dev"
